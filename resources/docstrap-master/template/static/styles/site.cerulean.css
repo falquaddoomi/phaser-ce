@@ -5580,13 +5580,10 @@ i[class^="icon-"] {
 #toc {
   position: fixed;
   top: 56px;
-  width: 29%;
-  max-height: 90%;
-  overflow: auto;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px #2fa4e7 solid;
+  overflow-y: auto;
+  width: 23%;
+  height: 90%;
+  border-right: 1px #2fa4e7 solid;
   padding: 5px;
 }
 #toc .toc-active {
